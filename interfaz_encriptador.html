@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+        <title>Alura Challenge - Desafío 1 - Lógica</title>
+        <link rel ="stylesheet" href="estilos_encriptador.css">
+        <script src="https://kit.fontawesome.com/ebcd167341.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+    <header>
+        <img id="logo"src="logo.png">
+    </header>
+    <main>
+
+        <input type="text" class ="entradaTexto" id = "mensajeEntrada"  oninput="this.value =this.value.replace(/[^a-z ]/,'')" placeholder="ingrese el texto aqui"  autofocus ></input>
+        
+        <div class ="fondoSalidaTexto"></div> 
+        <textarea class ="salidaTexto" id= "mensajeSalida"></textarea>
+        <button class="copiar" id="buttonCopiar"><rect id="copiar"> Copiar</rect></button>
+        <div class="bloque1">
+            <button id= "buttonEncriptar"class="encriptar"><rect id="encriptar">Encriptar</rect></button>
+            <button class="desencriptar"><rect id="buttonDesencriptar">Desencriptar</rect></button>
+        </div>
+     
+        <img id="aviso"src="Vector.jpg">
+        <rect id="reglas">Apenas letras minúsculas e sem acento.</rect>
+
+      
+
+        <figure id="figuraInicial">
+            <img id ="muñeco" src="muñeco.png">
+            <img id="mensajeInicio1" src="mensajeInicio1.png">
+            <img id="mensajeInicio2" src="mensajeInicio2.png">
+        </figure>
+    </main>
+
+    <footer id="main-footer">
+        <div id="footer-call-to-action">
+        </div>
+    
+        <div id="footer-bottom"class="container">
+            <div class="copyright">
+                <br>  &copy;2022 Derechos Reservados </br>
+                <br>  Brenda Elizabeth Martínez López / Diseño y desarrollo web  </br>
+                <br> e-mail: brenda.mtzlpez@gmail.com </br>
+                
+                <nav id="footer-menu">
+                    <ul >
+                        <li><a href="https://www.facebook.com/liz.brenda.7"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brenda-elizabeth-mart%C3%ADnez-l%C3%B3pez-a62187b4/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/BrendaE1992"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul>
+                    </nav>      
+ 
+            </div>
+        </div>
+        </footer>
+     
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+        <script src ="encriptador.js"></script>
+        
+    </body>
+
+
+</html> 
