@@ -240,12 +240,15 @@ body{
 
 #mensajeInicio1{
 
-    position: relative;
+    position: absolute;
     align-items: center;
     left: 1032px;
     right: 72px;
     top: 619px;
     bottom: 347px; 
+    width: 286px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #mensajeInicio2{
@@ -274,7 +277,7 @@ body{
     color: white;
     position: relative;
     margin-top: -2px;
-    padding: 38%;
+    padding: 500px;
     clear: both;
     z-index: -2;
     box-sizing: border-box;
